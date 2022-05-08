@@ -1,7 +1,7 @@
 {
-  "name": "chrome-cookies-secure",
-  "version": "1.3.3",
-  "description": "Extract encrypted Google Chrome cookies for a url on a Mac or Linux",
+  "name": "chrome-cookies-extract",
+  "version": "1.3.4",
+  "description": "Get Chrome Cookie. Fork：chrome-cookies-secure",
   "keywords": [
     "google",
     "chrome",
@@ -16,7 +16,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bertrand Fan <bert@bert.org> (https://bert.org/)",
+  "author": "hayden.wang",
   "license": "MIT",
   "os": [
     "darwin",
@@ -25,12 +25,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bertrandom/chrome-cookies-secure.git"
+    "url": "https://github.com/node-hayden/chrome-cookies-secure.git"
   },
   "dependencies": {
     "int": "^0.2.0",
     "request": "^2.88.0",
-    "sqlite3": "^4.1.1",
+    "sqlite3": "^5.0.0",
     "tldjs": "^1.5.1",
     "tough-cookie": "^2.3.4"
   },
